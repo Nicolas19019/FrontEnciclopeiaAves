@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Administrador</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="scriptadmin.js"></script>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+	crossorigin="anonymous"></link>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+	crossorigin="anonymous"></script>
+	
+<link rel="stylesheet" href="administrador.css">
+	
+
+
+
+</head>
+<body>
+	<header>
+			<h1>Administrador</h1>
+
+			<img
+				src="https://seeklogo.com/images/U/universidad-el-bosque-logo-A837187DAB-seeklogo.com.png"
+				alt="Escudo Universidad" class="escudo-universidad">
+		</header>
+	<div class="container">
+		<div class="form-container">
+			<div class="form-box">
+				<h2>Eliminar Ave</h2>
+				<form onsubmit="eliminarAve(event);">
+					<label for="aveIdEliminar">ID del Ave:</label><br> <input
+						type="text" id="aveIdEliminar" name="aveIdEliminar"><br>
+					<br> <input type="submit" class="btn">
+				</form>
+			</div>
+
+
+			<div class="form-box">
+				<h2>Eliminar Biólogo</h2>
+				<form onsubmit="eliminarBiologo(event);">
+					<label for="biologoIdEliminar">ID del Biólogo:</label><br> <input
+						type="Number" min=0 id="biologoIdEliminar"
+						name="biologoIdEliminar"><br> <br> <input
+						type="submit" class="btn">
+				</form>
+			</div>
+		</div>
+		<div class="form-container">
+			<div class="form-box">
+				<h2>Actualizar Ave</h2>
+				<form id="ayudadios" method="get">
+					<label for="aveIdActualizar">ID del Ave:</label><br> <input
+						type="Number" min=0 id="aveIdActualizar" name="aveIdActualizar"><br>
+					<br> <label for="biologoActualizar">Biólogo:</label><br>
+					<input type="text" id="biologoActualizar" name="biologoActualizar"><br>
+					<br> <label for="nombreCientificoActualizar">Nombre
+						Científico:</label><br> <input type="text"
+						id="nombreCientificoActualizar" name="nombreCientificoActualizar"><br>
+					<br> <label for="familiaActualizar">Familia:</label><br>
+					<input type="text" id="familiaActualizar" name="familiaActualizar"><br>
+					<br> <label for="ordenActualizar">Orden:</label><br> <input
+						type="text" id="ordenActualizar" name="ordenActualizar"><br>
+					<br> <label for="claseActualizar">Clase:</label><br> <input
+						type="text" id="claseActualizar" name="claseActualizar"><br>
+					<br> <label for="filoActualizar">Filo:</label><br> <input
+						type="text" id="filoActualizar" name="filoActualizar"><br>
+					<br> <label for="reinoActualizar">Reino:</label><br> <input
+						type="text" id="reinoActualizar" name="reinoActualizar"><br>
+					<br> <input type="submit" class="btn">
+				</form>
+			</div>
+			<div class="form-box">
+				<h2>Actualizar Biólogo</h2>
+				<form id="hijo de puta" method="Post">
+					<label for="biologoIdActualizar">ID del Biólogo:</label><br> <input
+						type="Number" min=0 id="id" name="id"><br> <br>
+					<label for="nombreActualizar">Nombre:</label><br> <input
+						type="text" id="nombreActualizar" name="nombreActualizar"><br>
+					<br> <label for="correoActualizar">Correo:</label><br> <input
+						type="text" id="correoActualizar" name="correoActualizar"><br>
+					<br> <label for="edadActualizar">Edad:</label><br> <input
+						type="number" id="edadActualizar" name="edadActualizar"><br>
+					<br> <label for="fechaActualizar">Fecha:</label><br> <input
+						type="date" id="fechaActualizar" name="fechaActualizar"><br>
+					<br> <label for="cedulaActualizar">Cédula:</label><br> <input
+						type="text" id="cedulaActualizar" name="cedulaActualizar"><br>
+					<br> <label for="cursandoActualizar">Cursando:</label><br>
+
+					<select id="cursandoActualizar" name="graduado" class="select-neon">
+						<option value="si">Sí</option>
+						<option value="no">No</option>
+					</select><br> <br> <label for="aveActualizar">Ave:</label><br>
+					<input type="text" id="aveActualizar" name="aveActualizar"><br>
+					<br> <input type="submit" class="btn">
+				</form>
+			</div>
+		</div>
+		<div class="form-container">
+			<div class="form-box">
+				<h2>Buscar Ave</h2>
+				<form id="diossanto" method="get">
+					<label for="aveIdBuscar">ID del Ave:</label><br> <input
+						type="number" type="Number" min=0 id="aveIdBuscar"
+						name="aveIdBuscar"><br> <br> <input
+						type="submit" value="Buscar Ave" class="btn">
+				</form>
+			</div>
+			<div class="form-box">
+				<h2>Buscar Biólogo</h2>
+				<form id="upa" method="get">
+					<label for="biologoIdBuscar">ID del Biólogo:</label><br> <input
+						type="Number" min=0 id="biologoIdBuscar" name="biologoIdBuscar"><br>
+					<br> <input type="submit" value="Buscar Biólogo" class="btn">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="box">
+				<h2>Informacion del ave</h2>
+				<div id="division1" class="info-text">
+					<table class="table table-bordered border-primary" id="aves-table">
+						<tr>
+							<th>ID</th>
+							<th>Biólogo</th>
+							<th>Nombre</th>
+							<th>Familia</th>
+							<th>Orden</th>
+							<th>Clase</th>
+							<th>Filo</th>
+							<th>Reino</th>
+							<th>Imagen</th>
+							<th>Enlace</th>
+						</tr>
+						<tr>
+							<td id="ave-id"></td>
+							<td id="ave-biologo"></td>
+							<td id="ave-nombre"></td>
+							<td id="ave-familia"></td>
+							<td id="ave-orden"></td>
+							<td id="ave-clase"></td>
+							<td id="ave-filo"></td>
+							<td id="ave-reino"></td>
+							<td class="image-cell"><img id="ave-imagen"
+								alt="Imagen del ave" height="150" width="150"></td>
+							<td id="ave-enlace"></td>
+						</tr>
+					</table>
+
+
+				</div>
+
+
+
+				<div id="division1.2" class="info-text"></div>
+
+				<div id="division1.3" class="info-text"></div>
+
+				<!-- División 1 donde se mostrará la información -->
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="box">
+				<h2>Informacion del Biologo</h2>
+				<div id="division2" class="info-text">
+					<table id="biologos-table"
+						class="table table-bordered border-primary-subtle">
+						<tr>
+							<th>ID</th>
+							<th>Nombre</th>
+							<th>Correo</th>
+							<th>Edad</th>
+							<th>Fecha</th>
+							<th>Cédula</th>
+							<th>Cursando</th>
+							<th>Ave</th>
+						</tr>
+						<tr>
+							<td id="biologo-id"></td>
+							<td id="biologo-nombre"></td>
+							<td id="biologo-correo"></td>
+							<td id="biologo-edad"></td>
+							<td id="biologo-fecha"></td>
+							<td id="biologo-cedula"></td>
+							<td id="biologo-cursando"></td>
+							<td id="biologo-ave"></td>
+						</tr>
+					</table>
+
+
+				</div>
+
+
+
+				<div id="division2.2" class="info-text"></div>
+
+				<div id="division2.3" class="info-text"></div>
+				<!-- División 2 donde se mostrará la información -->
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="form-wrapper">
+			<form onsubmit="crearpdfave(event);">
+				<button type="submit" id="create-pdf"
+					class="btn btn-outline-primary">Crear PDF Tabla Pájaros</button>
+			</form>
+		</div>
+
+		<div class="form-wrapper">
+			<form onsubmit="crearpdfbiologo(event);">
+				<button type="submit" id="create-pdf"
+					class="btn btn-outline-primary">Crear PDF Tabla Biólogos</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="form-wrapper">
+			<form onsubmit="crearpdfbiologoO(event);">
+				<button type="submit" id="create-pdf"
+					class="btn btn-outline-primary">Crear tabla PDF Biólogos
+					Ordenado</button>
+			</form>
+		</div>
+
+		<div class="form-wrapper">
+			<form onsubmit="crearpdfaveO(event);">
+				<button id="create-pdf" class="btn btn-outline-primary">Crear
+					tabla PDF Pájaros Ordenado</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="scriptadmin.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/pdfmake.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/vfs_fonts.js"></script>
+
+</body>
+</html>

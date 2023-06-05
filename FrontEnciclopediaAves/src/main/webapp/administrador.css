@@ -1,0 +1,168 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #db82e9;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  border: 2px solid #FFFFFF;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.escudo-universidad {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 80px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 48%;
+}
+
+.form-box h2 {
+  margin-bottom: 10px;
+}
+
+
+input[type="email"],
+input[type="date"] {
+  background-color: #102e4a;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  width: 100%;
+}
+
+input[type="email"]:focus,
+input[type="date"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff6aff, 0 0 70px #ff6aff, 0 0 80px #ff6aff, 0 0 100px #ff6aff;
+}
+
+input[type="email"],
+input[type="date"],
+::placeholder {
+  color: #fff;
+}
+
+
+
+input[type="text"],
+input[type="number"] {
+  background-color: #102e4a;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff6aff, 0 0 70px #ff6aff, 0 0 80px #ff6aff, 0 0 100px #ff6aff;
+}
+
+input[type="text"],
+input[type="number"]::placeholder {
+  color: #fff;
+}
+input[type="submit"] {
+  background-color: #ff6aff;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff4c4c;
+}
+
+.select-neon {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #102e4a;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.4), 0 0 50px rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+
+.select-neon option {
+  background-color: #102e4a;
+  color: #fff;
+}
+
+.select-neon:focus {
+  outline: none;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff6aff, 0 0 70px #ff6aff, 0 0 80px #ff6aff, 0 0 100px #ff6aff;
+}
+
+.form-box input[type="submit"]:hover,
+.form-box button:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.image-cell {
+  text-align: center;
+}
