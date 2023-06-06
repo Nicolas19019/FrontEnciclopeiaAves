@@ -53,7 +53,7 @@ Recuerda que esta documentación proporciona una visión general de las funciona
 
 ## Capturas de pantalla
 
-![Registro](re![Captura de pantalla 2023-06-06 154622](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/a1be8968-99ef-4c5d-a93e-0b570be1a024)
+![Registro]([Captura de pantalla 2023-06-06 154622](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/a1be8968-99ef-4c5d-a93e-0b570be1a024)
 
 
 [Captura de pantalla 2023-06-06 154656](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/41a5adc1-f2e9-49c7-aa84-5903c585e864)
@@ -61,7 +61,7 @@ Recuerda que esta documentación proporciona una visión general de las funciona
 [Captura de pantalla 2023-06-06 154730](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/ae18ddef-c782-4656-946d-7796927a72c9)
 ![Captura de pantalla 2023-06-06 154759](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/5edbeca5-d3d6-471d-804d-a64912495503)
 
-[Búsqueda](busq![Captura de pantalla 2023-06-06 154851](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/801ab967-80a6-4e36-8c9e-9bdf1cde77cb)
+[Búsqueda]([Captura de pantalla 2023-06-06 154851](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/801ab967-80a6-4e36-8c9e-9bdf1cde77cb)
 
 
 [Detalles](detalle![Captura de pantalla 2023-06-06 154923](https://github.com/Nicolas19019/FrontEnciclopeiaAves/assets/124646782/42018014-9fc1-4564-a508-7156b8511326)
